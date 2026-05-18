@@ -446,3 +446,94 @@ section.como-ajudar{
     height: 60px;
     font-size: 20px;
 }
+
+/* Hero - Consumo de Água */
+.agua section.hero-site {
+    height: 98vh;
+    background-image: url(../images/agua-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: multiply;
+}
+
+.agua .hero-site .interface{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.agua .hero-site .txt-hero h1{
+    font-size: 4em;
+    line-height: 70px;
+    font-weight: 200;
+}
+
+.agua .hero-site .txt-hero h1 span{
+    display: block;
+    font-weight: 800;
+}
+
+.agua .hero-site .txt-hero p{
+    font-size: 20px;
+    font-weight: 300;
+    margin: 20px 0;
+}
+
+.agua .hero-site .txt-hero p span{
+    display: block;
+}
+
+.hero-site button{
+    width: 220px;
+    height: 60px;
+    font-size: 20px;
+}
+
+/* Hero - Impacto Ambiental */
+
+.impacto section.hero-site {
+    height: 98vh;
+    background-image: url(../images/bg-impacto.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: multiply;
+}
+
+.impacto .hero-site .interface{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.impacto .hero-site .txt-hero h1{
+    font-size: 4em;
+    line-height: 70px;
+    font-weight: 200;
+}
+
+.impacto .hero-site .txt-hero h1 span{
+    display: block;
+    font-weight: 800;
+}
+
+.impacto .hero-site .txt-hero p{
+    font-size: 20px;
+    font-weight: 300;
+    margin: 20px 0;
+}
+
+.impacto .hero-site .txt-hero p span{
+    display: block;
+}
+
+.hero-site button{
+    width: 220px;
+    height: 60px;
+    font-size: 20px;
+}

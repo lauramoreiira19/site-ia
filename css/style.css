@@ -29,7 +29,7 @@ header .btn-ajuda button:hover, .hero-site button:hover, .ia button:hover, .ajud
 }
 
 /* Estilo do header */
-header {
+header, .energia header, .agua header, .impacto header{
     width: 100%;
     padding: 40px 0;
     position: fixed;
@@ -40,73 +40,73 @@ header {
     z-index: 999;
 }
 
-header .interface {
+header .interface, .energia header .interface, .agua header .interface, .impacto header .interface{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-header .logo img{
+header .logo img, .energia header .logo img, .agua header .logo img, .impacto header .logo img{
     max-width: 40px;
 }
 
 /* Estilo do menu dinâmico */
 
-header .logo img.logo-preta{
+header .logo img.logo-preta, .energia header .logo img.logo-preta, .agua header .logo img.logo-preta, .impacto header .logo img.logo-preta{
     display: none;
 }
 
-header.rolar{
+header.rolar, .energia header.rolar, .agua header.rolar{
     background-color: #fff;
     padding: 20px 0;
     box-shadow: 0 0 8px #00000061;
 }
 
-header.rolar .menu-desktop nav ul li a{
+header.rolar .menu-desktop nav ul li a, .energia header.rolar .menu-desktop nav ul li a, .agua header.rolar .menu-desktop nav ul li a, .impacto header.rolar .menu-desktop nav ul li a, header.rolar .btn-ajuda button, .energia header.rolar .btn-ajuda button, agua header.rolar .btn-ajuda button, impacto header.rolar .btn-ajuda button{
     color: #000;
 }
 
-header.rolar .btn-ajuda button{
+header.rolar .btn-ajuda button, .energia header.rolar .btn-ajuda button, agua header.rolar .btn-ajuda button, impacto header.rolar .btn-ajuda button{
     border: 1px solid #000;
     color: #000;
 }
 
-header.rolar .btn-ajuda button:hover{
+header.rolar .btn-ajuda button:hover, .energia header.rolar .btn-ajuda button:hover, .agua header.rolar .btn-ajuda button:hover, .impacto header.rolar .btn-ajuda button:hover{
     background-color: #000;
     color: #fff;
 }
 
-header.rolar .logo img.logo-branca{
+header.rolar .logo img.logo-branca, .energia header.rolar .logo img.logo-branca, .agua header.rolar .logo img.logo-branca{
     display: none;
 }
 
-header.rolar .logo img.logo-preta{
+header.rolar .logo img.logo-preta, .energia header.rolar .logo img.logo-preta, .agua header.rolar .logo img.logo-preta, .impacto header.rolar .logo img.logo-preta{
     display: block;
 }
 
 /* ------------------------ */
 
-header .menu-desktop nav ul{
+header .menu-desktop nav ul, .energia header .menu-desktop nav ul, .agua header .menu-desktop nav ul{
     list-style-type: none;
 }
 
-header .menu-desktop nav ul li{
+header .menu-desktop nav ul li, .energia header .menu-desktop nav ul li, .agua header .menu-desktop nav ul li, .impacto header .menu-desktop nav ul li{
     display: inline-block;
     margin: 0 40px;
 }
 
-header .menu-desktop nav ul li a{
+header .menu-desktop nav ul li a, .energia header .menu-desktop nav ul li a, .agua header .menu-desktop nav ul li a, .impacto header .menu-desktop nav ul li a{
     color: #fff;
     text-decoration: none;
     display: inline-block;
     transition: .2s;
 }
 
-.menu-desktop nav a:hover{
+.menu-desktop nav a:hover, .energia .menu-desktop nav a:hover, .agua .menu-desktop nav a:hover, .impacto .menu-desktop nav a:hover{
     transform: scale(1.05);
 }
 
-header .btn-ajuda button{
+header .btn-ajuda button, .energia header .btn-ajuda button, .agua header .btn-ajuda button, .impacto header .btn-ajuda button{
     width: 140px;
     height: 50px;
 }
@@ -157,11 +157,11 @@ section.hero-site {
 }
 
 /* Estilo da criação do ENIAC */
-section.historia{
+section.historia, section.estrutura{
     padding: 80px 0;
 }
 
-.historia .itens-container{
+.historia .itens-container, .estrutura .itens-container{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -169,17 +169,17 @@ section.historia{
     margin-bottom: 60px;
 }
 
-.historia .itens-container .img-itens img{
+.historia .itens-container .img-itens img, .estrutura .itens-container .img-itens img{
     max-width: 480px;
 }
 
-.historia .itens-container .txt-itens h3{
+.historia .itens-container .txt-itens h3, .estrutura .itens-container .txt-itens h3{
     font-size: 3em;
     line-height: 50px;
     margin-bottom: 20px;
 }
 
-.itens-container .txt-itens h3 span{
+.itens-container .txt-itens h3 span, .estrutura .itens-container .txt-itens h3 span{
     font-weight: 300;
 }
 
@@ -310,9 +310,7 @@ footer .bottom-footer p{
     margin-top: 10px;
 }
 
-/* Header -Como ajudar */
-
-
+/* Header - Como ajudar */
 
 header .logo img{
     max-width: 40px;
@@ -402,3 +400,6 @@ section.como-ajudar{
 section.como-ajudar{
     padding: 180px 0 80px 0;
 }
+
+/* Header - Data Centers & Energia */
+

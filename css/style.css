@@ -5,6 +5,11 @@
     font-family: "Poppins", sans-serif;
 }
 
+html{
+    scroll-behavior: smooth;
+    transition: .5s;
+}
+
 body {
     background-color: #E3E3E3;
 }
@@ -40,7 +45,7 @@ header, .energia header, .agua header, .impacto header{
     z-index: 999;
 }
 
-header .interface, .energia header .interface, .agua header .interface, .impacto header .interface{
+header .interface, .energia header .interface, .agua header .estrutura, .impacto header .interface{
     display: flex;
     justify-content: space-between;
     align-items: center;

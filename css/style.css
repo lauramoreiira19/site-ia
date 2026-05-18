@@ -401,5 +401,48 @@ section.como-ajudar{
     padding: 180px 0 80px 0;
 }
 
-/* Header - Data Centers & Energia */
+/* Hero - Data Centers & Energia */
 
+.energia section.hero-site {
+    height: 98vh;
+    background-image: url(../images/bg-data-center.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: multiply;
+}
+
+.energia .hero-site .interface{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.energia .hero-site .txt-hero h1{
+    font-size: 4em;
+    line-height: 70px;
+    font-weight: 200;
+}
+
+.energia .hero-site .txt-hero h1 span{
+    display: block;
+    font-weight: 800;
+}
+
+.energia .hero-site .txt-hero p{
+    font-size: 20px;
+    font-weight: 300;
+    margin: 20px 0;
+}
+
+.energia .hero-site .txt-hero p span{
+    display: block;
+}
+
+.hero-site button{
+    width: 220px;
+    height: 60px;
+    font-size: 20px;
+}

@@ -3,48 +3,91 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        * {
-    padding: 0;
-    margin: 0;
-}
+    <link rel="stylesheet" href="css/style.css">
 
-header {
-    background-color: #30474F;
-    padding: 20px;
-    text-align: center;
-    font-family: 'Arial', 'Helvetica', sans-serif;
-}
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- /Google Fonts -->
 
-header li {
-    display: inline-block;
-    margin: 0 10px;
-}
-
-header a {
-    text-decoration: none;
-    color: white;
-}
-
-header a:hover {
-    color: rgb(185, 185, 185);
-}
-    </style>
+    <title>Website Responsivo</title>
 </head>
 <body>
     <header>
-        <div>
-            <nav>
-                <ul>
-                    <li><a href="pages/home.html" target="_self">Início</a></li>
-                    <li><a href="pages/energy.html" target="_self">Data Centers & Energia</a></li>
-                    <li><a href="pages/water.html" target="_self">Consumo de Água</a></li>
-                    <li><a href="pages/raw.html" target="_self">Impacto Material</a></li>
-                    <li><a href="pages/help.html" target="_self">Como Ajudar?</a></li>
-                </ul>
-            </nav>
+        <div class="interface">
+            <section class="logo">
+                <img src="images/logo.png" alt="Logotipo do site">
+            </section>
+
+            <section class="menu-desktop">
+                <nav>
+                    <ul>
+                        <li><a href="#">Início</a></li>
+                        <li><a href="#">Data Centers & Energia</a></li>
+                        <li><a href="#">Consumo de Água</a></li>
+                        <li><a href="#">Impacto Material</a></li>
+                    </ul>
+                </nav>
+            </section>
+
+            <section class="btn-contato">
+                <a href="#">
+                    <button>Contato</button>
+                </a>
+            </section>
         </div>
     </header>
+
+    <section class="hero-site">
+        <div class="interface">
+            <div class="txt-hero">
+                <h1>Descubra sobre a <span>Inteligência Artificial</span></h1>
+                <p>Veja como essa tecnologia pode trazer avanços incríveis, <span>mas também gerar impactos significativos para a sociedade e o meio ambiente.</span></p>
+                <a href="#">
+                    <button>Saiba Mais</button>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="historia">
+        <div class="interface">
+            <article class="itens-container">
+                <div class="txt-itens">
+                    <h3><span>Criação</span> do<br> ENIAC</h3>
+                    <p>O ENIAC, criado em 1946, foi o primeiro computador eletrônico de grande porte da história e marcou o início da evolução tecnológica moderna. Desenvolvido para realizar cálculos militares durante a Segunda Guerra Mundial, ele ocupava grandes espaços, utilizava milhares de válvulas e consumia enorme quantidade de energia elétrica.</p>
+                </div>
+
+                <div class="img-itens">
+                    <img src="images/eniac.png">
+                </div>
+            </article>
+
+            <article class="itens-container">
+                <div class="img-itens">
+                    <img src="images/resfriamento-ia.jpg">
+                </div>
+                
+                <div class="txt-itens">
+                    <h3><span>O </span> grande<br> problema</h3>
+                    <p>Os data centers, compostos por milhares de computadores potentes funcionando sem parar, geram calor extremo devido ao grande esforço das máquinas, exigindo o uso de milhões de litros de água potável para resfriamento e evitando falhas ou lentidão no sistema.</p>
+                </div>
+
+                
+            </article>
+
+            <article class="itens-container">
+                <div class="txt-itens">
+                    <h3><span>O</span> uso<br> consciente</h3>
+                    <p>Em um planeta onde os ecossistemas já estão sensíveis, o uso diário e exagerado das IAs está gerando um impacto ambiental invisível, mas alarmante.</p>
+                </div>
+
+                <div class="img-itens">
+                    <img src="images/uso-consciente.jpg">
+                </div>
+            </article>
+        </div>
+    </section>
 </body>
 </html>

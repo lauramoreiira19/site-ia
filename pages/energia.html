@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/responsive.css" media="screen">
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -28,7 +29,7 @@
                         <li><a href="energia.html">Data Centers & Energia</a></li>
                         <li><a href="agua.html">Consumo de Água</a></li>
                         <li><a href="impacto.html">Impacto Material</a></li>
-                    </ul>
+
                 </nav>
             </section>
 
@@ -37,7 +38,23 @@
                     <button>Como Ajudar?</button>
                 </a>
             </section>
+
+            <div class="btn-menu-mob" id="btn-menu-mob">
+                <div class="line-menumob-1"></div>
+                <div class="line-menumob-2"></div>
+            </div>
         </div>
+
+        <section class="menu-mobile" id="menu-mobile">
+                <nav>
+                    <ul>
+                        <li><a href="../index.html">Início</a></li>
+                        <li><a href="energia.html">Data Centers & Energia</a></li>
+                        <li><a href="agua.html">Consumo de Água</a></li>
+                        <li><a href="impacto.html">Impacto Material</a></li>
+                    </ul>
+                </nav>
+            </section>
     </header>
 
     <section class="hero-site">
@@ -66,11 +83,11 @@
             </article>
 
             <article class="itens-container">
-                <div class="img-itens">
+                <div class="img-itens item-1">
                     <img src="../images/energia-data.jpg">
                 </div>
 
-                <div class="txt-itens">
+                <div class="txt-itens item-2">
                     <h3><span>Energia </span><br> sem parar</h3>
                     <p>Para manter milhares de computadores funcionando continuamente, os data centers consomem enormes quantidades de energia elétrica diariamente. Além de alimentar os servidores, grande parte dessa eletricidade também é usada nos sistemas de resfriamento, essenciais para evitar superaquecimento das máquinas.</p>
                 </div>
@@ -104,5 +121,6 @@
 
     <!-- Scripts de JS -->
     <script src="../js/menu.js"></script>
+    <script src="../js/btn-menu-mob.js"></script>
 </body>
 </html>

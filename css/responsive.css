@@ -1,0 +1,119 @@
+
+@media screen and (max-width: 900px) {
+    header .menu-desktop{
+        display: none;
+    }
+
+    header .btn-ajuda{
+        display: block;
+    }
+
+    header .btn-menu-mob, .energia header .btn-menu-mob, .agua header .btn-menu-mob, .impacto header .btn-menu-mob, .ajuda header .btn-menu-mob{
+        display: block;
+    }
+}
+
+@media screen and (max-width: 878px) {
+    /* Responsivo da Hero */
+    .hero-site .txt-hero h1, .energia .hero-site .txt-hero h1, .agua .hero-site .txt-hero h1, .impacto .hero-site .txt-hero h1, .ajuda .hero-site .txt-hero h1{
+        font-size: 2em;
+        line-height: 45px;
+    }
+
+    .hero-site .txt-hero p, .energia .hero-site .txt-hero p, .agua .hero-site .txt-hero p, .impacto .hero-site .txt-hero p, .ajuda .hero-site .txt-hero p{
+        font-size: 14px;
+    }
+
+    .hero-site .txt-hero p span{
+        display: inline;
+    }
+
+    .hero-site button, .energia .hero-site button, .agua .hero-site button, .impacto .hero-site button, .ajuda .hero-site button{
+        font-size: 18px;
+    }
+
+    /* Responsivo da criação do ENIAC */
+
+    .historia .itens-container, .estrutura .itens-container{
+        flex-direction: column;
+    }
+
+    .historia .itens-container .img-itens img, .estrutura .itens-container .img-itens img{
+        width: 100%;
+    }
+
+    .historia .itens-container .txt-itens p, .estrutura .itens-container .txt-itens p{
+        margin-bottom: 20px;
+    }
+
+    .historia .itens-container .item-1, .estrutura .itens-container .item-1{
+        order: 1;
+    }
+
+    .historia .itens-container .item-2, .estrutura .itens-container .item-2{
+        order: 0;
+    }
+
+    /* Responsivo da seção de evolução da IA */
+
+    .ia h3{
+        font-size: 2.3em;
+        line-height: 40px;
+    }
+
+    .ia p{
+        margin: 20px 0;
+        font-size: 16px;
+    }
+
+    section.como-funciona{
+    padding: 80px 0;
+}
+
+/* Responsivo da seção de como funciona */
+
+    .txt-funciona, .instrucoes{
+        display: block;
+        width: 100%;
+    }
+
+    .como-funciona .txt-funciona{
+        position: static;
+    }
+
+    .como-funciona .txt-funciona h3{
+        font-size: 3em;
+        line-height: 50px;
+    }
+
+    .instrucoes .instru-box{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    /* Responsivo da seção como ajudar */
+
+    .txt-ajudar, .ajudar{
+        display: block;
+        width: 100%;
+    }
+
+    .como-ajudar .interface{
+        flex-direction: column;
+    }
+
+    .como-ajudar .txt-ajudar{
+        position: static;
+    }
+
+    .como-ajudar .txt-ajudar h3{
+        font-size: 3em;
+        line-height: 50px;
+    }
+
+    .ajudar .ajudar-box{
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
